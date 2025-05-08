@@ -2,9 +2,13 @@
   "name": "psicodayane",
   "version": "1.0.0",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build && next export"
-  },
+  "dev": "next dev",
+  "build": "next build",
+  "start": "next start",
+  "preview": "next start",
+  "lint": "next lint"
+}
+,
   "dependencies": {
     "@heroicons/react": "^2.2.0",
     "git": "^0.1.5",
